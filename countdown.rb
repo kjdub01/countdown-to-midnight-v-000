@@ -1,10 +1,13 @@
 #write your code here
 
 def countdown(sec)
-  counter = sec
-  until counter == 0 do
+  while sec > 0 do
     puts "#{sec} SECOND(S)!"
-     counter -= 1
+     sec -= 1
   end
   return "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(sec)
+ 
+ end
